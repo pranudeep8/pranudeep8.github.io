@@ -1,0 +1,97 @@
+
+@media screen and (max-width: 767px){
+ul.customer-logos li {
+  width: 33.333%;
+  height: 175px;
+}
+.customer-quote {
+  display: none;
+}
+ul.customer-logos li:hover .customer-logo {
+  opacity: none;
+}
+
+ul.customer-logos li:hover .customer-quote {
+  opacity: none;
+}
+ul{
+padding-left:0;	
+}
+.vertical-center-content {
+  vertical-align: top;
+}
+
+#section1{
+display:none;
+}
+
+#our-services .block {
+    width: 371px;
+    max-width: 100%;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.right {
+    width: 100%;
+}
+
+.left {
+    display:none;
+}
+
+#picture {
+    padding-top: 0px;
+}
+
+.navbar-header{
+background-color:#000000;
+}
+
+.navbar-collapse{
+background-color:#000000;
+}
+
+}
+
+
+@media (max-width: 1600px){
+.owl-carousel:before {
+  right: 60%;
+}
+.owl-carousel:after {
+  left: 60%;
+}
+}
+
+
+@media (max-width: 1500px){
+.owl-carousel:before {
+  right: 61%;
+}
+.owl-carousel:after {
+  left: 61%;
+}
+
+
+
+@media screen and (max-width: 738px){
+
+}
+
+@media (max-width: 979px) and (min-width: 768px){
+ul.customer-logos li {
+  width: 33.33333333%;
+}
+}
+
+@media (max-width: 320px){
+ul.customer-logos li {
+  width: 100%;
+}
+ul.customer-logos li.center-customer-logo {
+  border-right: none;
+  border-left: none;
+}
+}
